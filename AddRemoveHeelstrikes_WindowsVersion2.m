@@ -53,7 +53,7 @@ Window  = 10000; % = the xlim in the figures
               
        NewCont=Heelstrike;
        
-       if button== 097%1 %add stuff
+       if button== 097%1 %add stuff %%% Change button settings if you use windows %%%
            ContactType=getkey; %indicatie type contact% 1=heelstrike links; 2 = toe off rechts; 3= heelstrike rechts; 4= toe off links
            if ContactType == 49
             temp=[add;1];
